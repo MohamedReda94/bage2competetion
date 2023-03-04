@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+header div .search{
+    position: relative;
+    margin-left: 150px;
+}
+header div .search .fa-search{
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    left: -17px;
+    top: 10px;
+}
+header div .search input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+header div .search ::placeholder{
+    position: absolute;
+    margin-left:20px;
+    margin-top:7px;
+}
+header h3{
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 200px;
+}
+header div .icon{
+margin-right: 100px;
+}
+header div .icon a{
+    margin-right: 15px;
+    color: black;
+}
+header div .icon a :hover{
+    color: blueviolet;
+}
+header hr{
+    margin-top: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav .home{
+    color: purple;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+header nav select{
+    border: none;
+}
+header nav a:hover{
+    color: blueviolet;
+}
+.first {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(235, 230, 230);  
+}
+.first a{
+    margin-left: 100px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.second{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second img {
+    width: 500px;
+    height: 400px;
+    margin-left: -200px;
+}
+.second ul{
+    width: 500px;
+    margin-left: 100px;
+}
+.second ul {
+    margin-top: -90px;
+}
+.second ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.second ul .one{
+    color:rgb(226, 43, 220);
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.second ul .two {
+    font-size: 30px;
+}
+.second ul .three{
+    color: #606770;
+}
+.second ul .four{
+    color: #606770;
+}
+hr{
+    margin-top: 100x;
+}
+.third .one{
+    margin-bottom: 50px;
+    margin-left: 700px;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(226, 43, 220);
+}
+
+.third .one p{
+    margin-left: -45px;
+    color: black;
+}
+.third .two{
+    display: flex;
+    justify-content: space-around;
+}
+.third .two img {
+    width: 100px;
+    border-radius: 50%;
+}
+.third .two .three{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.third .two li{
+    list-style-type: none;
+    color: #606770;
+    margin-left: 40px;
+    font-size: 13px
+}
+.third .two strong{
+    font-size:20px ;
+    color: black;
+    margin-left: -10px;
+}
+.third .two .tw{
+    margin-top: 20px;
+}
+.third{
+    height: 500px;
+}
+.forth{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.forth li{
+    list-style-type: none;
+}
+.forth li p{
+    color: #606770;
+}
+.forth li .one{
+    color: black;
+}
+.forth div {
+    display: flex;
+    align-items: center;
+
+}
+.forth i{
+    margin-right: 20px;
+    margin-top: -60px;
+    font-size: 20px;
+    color: blueviolet;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+
+}
+footer ul li{
+    list-style-type: none;
+    margin: 15px;
+    color: #606770;
+}
+footer .on .one{
+    color: black;
+    font-size: 20px;
+}
+footer .tw {
+    margin-top: 35px;
+    margin-left: -80px;
+}
+footer .thr{
+    margin-top: 35px;
+    margin-left: -150px;
+}
+footer .fo img{
+    width: 250px;
+    height: 100px;
+}
+footer .fo .one {
+    color: black;
+}
+footer .fo .two {
+    color:rebeccapurple ;
+}
+footer .fo{
+    margin-left: -100px;
+}
+footer .fiv li { 
+    display: flex;
+}
+footer .fiv li i{
+    margin-right: 15px;
+}
+footer .fiv .two{
+    margin-top: 40px;
+}
+footer .fiv .two .two{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    transition: all0.3 ease;
+    margin-left: -5px;
+}
+footer .fiv .two .one{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+footer .fiv .two .two:hover{
+    background-color: rgb(76, 17, 131);
+    transform: translate(1px,1px);
+    box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+}
+footer .last{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+footer .last i{
+    color: blueviolet;
+}
+footer .last em{
+    color: blueviolet;
+}
+
